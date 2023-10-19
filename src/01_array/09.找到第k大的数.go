@@ -14,7 +14,7 @@ import "fmt"
   - @Create 2023-10-18 16:38
 */
 func main() {
-	arr := []int{1, 2, 3, 4, 5}
+	arr := []int{5, 1, 8, 2, 4}
 	result := findKthLargest(arr, 2) // 4
 	fmt.Println(result)
 }
