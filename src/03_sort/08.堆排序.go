@@ -11,8 +11,8 @@ import "fmt"
 func heapSort(arr []int) {
 	n := len(arr)
 
-	// 构建最大堆
-	for i := n; i >= 0; i-- {
+	// 建立最大堆
+	for i := n/2 - 1; i >= 0; i-- {
 		heapify(arr, n, i)
 	}
 
